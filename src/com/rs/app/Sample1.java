@@ -20,7 +20,7 @@ public class Sample1 {
 			return 2;
 		});*/
 //		System.out.println(CompletableFuture.supplyAsync(Sample1::generate).get()); //blocking operation
-		System.out.println(CompletableFuture.supplyAsync(Sample1::generate).getNow(-1)); //blocking operation
+		System.out.println(CompletableFuture.supplyAsync(Sample1::generate).getNow(-1)); 
 		System.out.println("In main");
 	}
 }
